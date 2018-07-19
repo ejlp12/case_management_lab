@@ -127,6 +127,8 @@ image::images/case-execute-error.png[]
 
 . Change the parameters values to match your user namme and roles created
 
+[source,json]
+----
 {"case-data" : {  },
   "case-user-assignments" : {
     "owner" : "john",
@@ -136,7 +138,7 @@ image::images/case-execute-error.png[]
     "supplier" : "admin"
  }
 }
-
+----
 . You should see a reponse lke the following, containing your case instance ID.ase-execute-success
 
 +
